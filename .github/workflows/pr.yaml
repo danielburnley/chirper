@@ -1,0 +1,9 @@
+name: Build and stuff
+on: [push, pull_request]
+jobs:
+  test:
+    steps:
+      - name: Test
+        uses: Dockerfile
+        run: bundle exec rspec
+
