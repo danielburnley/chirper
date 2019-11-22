@@ -7,5 +7,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Test
-        uses: ./.github/workflows/actions/test-docker-action
+        uses: ./.github/workflows/actions/test-docker-action/action.yml
 
