@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test
-        uses: actions/test-docker-action@v1
+        uses: ./actions/test-docker-action
 
