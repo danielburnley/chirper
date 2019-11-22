@@ -1,7 +1,0 @@
-name: 'Run tests in docker'
-description: 'Run tests in docker'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - 'bundle exec rspec'
