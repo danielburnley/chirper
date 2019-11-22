@@ -4,7 +4,9 @@ jobs:
   test:
     steps:
       - name: Test
-        uses: Dockerfile
-        args: 
-          - bundle exec rspec
+        runs:
+          name: Docker
+          uses: Dockerfile
+          args: 
+            - bundle exec rspec
 
